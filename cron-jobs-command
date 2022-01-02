@@ -1,0 +1,1 @@
+mysqldump --user='db_user' --password='user_password' --host='localhost' db_name | gzip > /path/to/backups/db_backup_$(date +\%Y\%m\%d).sql.gz
